@@ -1,5 +1,5 @@
 Package.describe({
-  name: "szimmers:camera",
+  name: "zimv20:camera",
   summary: "Forked mdg:camera. Has dynamically sized popup on browsers and buttons atop the windows.",
   version: "1.4.1",
   git: "https://github.com/szimmers/mobile-packages"
