@@ -1,6 +1,6 @@
 Package.describe({
   name: "szimmers:camera",
-  summary: "Photos with one function call on desktop and mobile. Has dynamically sized popup on browsers and buttons atop the windows.",
+  summary: "Forked mdg:camera. Has dynamically sized popup on browsers and buttons atop the windows.",
   version: "1.4.1",
   git: "https://github.com/szimmers/mobile-packages"
 });
