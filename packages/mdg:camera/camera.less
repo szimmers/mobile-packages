@@ -6,10 +6,10 @@
 .camera-popup {
   position: fixed;
   z-index: 1000;
-  top: 20%;
-  width: 320px;
-  left: 50%;
-  margin-left: -150px;
+  top: 15%;
+  width: 70%;
+  left: 15%;
+  height: 70%;
   font-family: sans-serif;
   background: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -17,9 +17,6 @@
   pointer-events: auto;
 
   &.camera-popup-wide {
-    width: 480px;
-    margin-left: -240px;
-    top: 5%;
   }
 
   .hidden {
@@ -31,7 +28,7 @@
   }
 
   #video {
-    width: 280px;
+    width: 65%;
   }
 
   .center {
@@ -39,7 +36,7 @@
   }
 
   .photo-preview {
-    width: 320px;
+    width: 65%;
   }
 
   padding: 20px;
@@ -84,6 +81,10 @@
       background-color: @camera-buttons-color-active;
       border: 1px solid @camera-buttons-color-active-border;
     }
+  }
+
+  button .cancel {
+    bottom: 5%;
   }
 }
 
